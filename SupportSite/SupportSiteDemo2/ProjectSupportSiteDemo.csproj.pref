@@ -1,10 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="HomePageSuite.rxtst" />
+    <Element value="APITest.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="HomePageSuite.rxtst" />
+    <Element value="APITest.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

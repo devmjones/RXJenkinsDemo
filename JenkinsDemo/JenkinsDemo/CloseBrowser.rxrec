@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e87d8f6d-e582-44c0-904e-df330b72b54b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="JenkinsDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="807adde1-8eca-4cbe-b641-c3f7da1976b1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="90ab8465-5d2f-4ab3-9802-b93c85317993"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d1987af8-8825-4a1b-ab21-2457bc4e858a"
+	name="JenkinsDemoRepository"
+	relativepath="JenkinsDemoRepository.rxrep">
+		<codegen
+		classname="JenkinsDemoRepository"
+		namespace="JenkinsDemo">
+		</codegen>
+		<rootfolder
+		id="2dad6324-194b-4a90-8b88-9fe94e017c11"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

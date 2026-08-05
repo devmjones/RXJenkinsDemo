@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="24beb1a5-c08c-46e1-af3e-7c82f7cb1450"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="JenkinsDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://support.ranorex.com/hc/en-us
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="d1987af8-8825-4a1b-ab21-2457bc4e858a"
+	name="JenkinsDemoRepository"
+	relativepath="JenkinsDemoRepository.rxrep">
+		<codegen
+		classname="JenkinsDemoRepository"
+		namespace="JenkinsDemo">
+		</codegen>
+		<rootfolder
+		id="2dad6324-194b-4a90-8b88-9fe94e017c11"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

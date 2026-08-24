@@ -26,7 +26,7 @@ namespace JenkinsDemo
     /// <summary>
     ///The CloseBrowser recording.
     /// </summary>
-    [TestModule("e87d8f6d-e582-44c0-904e-df330b72b54b", ModuleType.Recording, 1)]
+    [TestModule("d23a46de-ff78-46d5-b90d-2480166f14d9", ModuleType.Recording, 1)]
     public partial class CloseBrowser : ITestModule
     {
         /// <summary>

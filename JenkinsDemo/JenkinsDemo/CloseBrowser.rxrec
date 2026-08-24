@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="e87d8f6d-e582-44c0-904e-df330b72b54b"
+id="d23a46de-ff78-46d5-b90d-2480166f14d9"
 mode="Desktop">
 	<repeatcount>
 		1
@@ -30,13 +30,13 @@ mode="Desktop">
 		graceperiod="0ms"
 		method="CloseWindow"
 		optional="False"
-		searchpropertyid="807adde1-8eca-4cbe-b641-c3f7da1976b1">
+		searchpropertyid="015c5b2f-196a-44cb-918b-7d7c51ee4604">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="90ab8465-5d2f-4ab3-9802-b93c85317993"
+			id="6c180948-0794-4bb6-8f59-571e900e0f3c"
 			sourcename="RepositoryEditor">
 				<path>
 					/form[@processname='chrome']
@@ -47,7 +47,7 @@ mode="Desktop">
 		</closeapprecorditem>
 	</recorditems>
 	<repository
-	id="d1987af8-8825-4a1b-ab21-2457bc4e858a"
+	id="b5fe7856-95c4-45f3-8538-95a115885f88"
 	name="JenkinsDemoRepository"
 	relativepath="JenkinsDemoRepository.rxrep">
 		<codegen
@@ -55,7 +55,7 @@ mode="Desktop">
 		namespace="JenkinsDemo">
 		</codegen>
 		<rootfolder
-		id="2dad6324-194b-4a90-8b88-9fe94e017c11"
+		id="a7c3fd7c-43df-408f-b751-a97ae4fd0d8b"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>

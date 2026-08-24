@@ -1,5 +1,5 @@
 ﻿<repository
-id="d1987af8-8825-4a1b-ab21-2457bc4e858a"
+id="b5fe7856-95c4-45f3-8538-95a115885f88"
 name="JenkinsDemoRepository">
 	<codegen
 	classname="JenkinsDemoRepository"
@@ -7,7 +7,7 @@ name="JenkinsDemoRepository">
 	</codegen>
 	<rootfolder
 	capname="unknown"
-	id="2dad6324-194b-4a90-8b88-9fe94e017c11"
+	id="a7c3fd7c-43df-408f-b751-a97ae4fd0d8b"
 	isrooted="True"
 	name="Root"
 	searchtimeout="0ms"
@@ -15,24 +15,24 @@ name="JenkinsDemoRepository">
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="90ab8465-5d2f-4ab3-9802-b93c85317993"
+		id="6c180948-0794-4bb6-8f59-571e900e0f3c"
 		isrooted="True"
 		name="ApplicationUnderTest"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
-			addcaps="unknown,webelement,h1tag"
-			capname="h1tag"
-			id="5491d3cd-9f67-453e-a41e-dbef4fe1a1e4"
-			name="RanorexHelpCenter"
-			refimgid="4130d5f8-46b7-48d6-a5df-62ab83d35107"
-			refpath="/dom[@domain='support.ranorex.com']/body/main/div/div/section[1]/h1[@innertext='Ranorex Help Center']"
-			robustPath="/dom[@domain='support.ranorex.com']//h1[@innertext='Ranorex Help Center']"
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="abf55897-d57a-4c66-985b-8420dd89f2fe"
+			name="RanorexLogo"
+			refimgid="3c7d1a3c-ce94-4bec-9491-bd12331b9264"
+			refpath="/dom[@domain='www.ranorex.com']/body/header/div/a[@href='https://www.ranorex.com/']/img[@alt='Ranorex Logo']"
+			robustPath="/dom[@domain='www.ranorex.com']//img[@alt='Ranorex Logo']"
 			searchtimeout="30000ms">
-				/dom[@domain='support.ranorex.com']/?/?/main/div/div/section[1]/h1[@innertext='Ranorex Help Center']
+				/dom[@domain='www.ranorex.com']/?/?/header/?/?/a[@href='https://www.ranorex.com/']/img[@alt='Ranorex Logo']
 			</item>
 			<basepath>
-				/dom[@domain='support.ranorex.com']
+				/dom[@domain='www.ranorex.com']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

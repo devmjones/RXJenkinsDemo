@@ -26,7 +26,7 @@ namespace JenkinsDemo
     /// <summary>
     ///The Recording1 recording.
     /// </summary>
-    [TestModule("6394156a-32b4-4fa7-ba48-294ed176bff9", ModuleType.Recording, 1)]
+    [TestModule("2aab2f0d-7492-4a47-a037-efba07c76832", ModuleType.Recording, 1)]
     public partial class Recording1 : ITestModule
     {
         /// <summary>
@@ -79,8 +79,8 @@ namespace JenkinsDemo
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.RanorexHelpCenter'.", repo.ApplicationUnderTest.RanorexHelpCenterInfo, new RecordItemIndex(0));
-            Validate.Exists(repo.ApplicationUnderTest.RanorexHelpCenterInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.ranorex.com/wp-content/uploads/2025/03/Ranorex_Logo_-_Light_Text_-_by_Sembi_.png') on item 'ApplicationUnderTest.RanorexLogo'.", repo.ApplicationUnderTest.RanorexLogoInfo, new RecordItemIndex(0));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.RanorexLogoInfo, "Src", "https://www.ranorex.com/wp-content/uploads/2025/03/Ranorex_Logo_-_Light_Text_-_by_Sembi_.png");
             Delay.Milliseconds(100);
             
         }

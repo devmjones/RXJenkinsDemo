@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{2BC1876B-480B-4FE5-AC83-BD2AA7FA8E7B}</ProjectGuid>
+    <ProjectGuid>{477381D4-BD42-491B-B9EE-43E2DFCB9C5C}</ProjectGuid>
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-    <projectdefaultrepository>f9db48c9-2a33-4596-ba91-01fee9b27a24</projectdefaultrepository>
+    <projectdefaultrepository>b40a687e-efa7-407c-87f8-e3ce5761ff71</projectdefaultrepository>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -123,93 +123,93 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs">
-      <id>9dce0cc4-66f2-45e7-a020-601ffba601a8</id>
+      <id>8661c89a-1572-46ab-b138-7d0fa830cbea</id>
     </Compile>
     <Compile Include="CloseBrowser.cs">
-      <BoundTo>1816bb35-4b53-47f3-acc1-11fef09593db</BoundTo>
+      <BoundTo>45d98b03-60db-474e-8ff3-c129147fd0cf</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>ef6dfd7b-bcaa-4da5-8c94-d201e1e7ebd3</id>
+      <id>ec001cb7-d99e-4fb3-ae26-96ad282956ee</id>
     </Compile>
     <Compile Include="CloseBrowser.UserCode.cs">
-      <BoundTo>1816bb35-4b53-47f3-acc1-11fef09593db</BoundTo>
+      <BoundTo>45d98b03-60db-474e-8ff3-c129147fd0cf</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>386907ec-b8ad-4332-9056-0fe3ac51db02</id>
+      <id>b32d19a7-f644-4ebf-be10-1ba34d06fda8</id>
     </Compile>
     <Compile Include="JenkinsDemoRepository.cs">
-      <BoundTo>f9db48c9-2a33-4596-ba91-01fee9b27a24</BoundTo>
+      <BoundTo>b40a687e-efa7-407c-87f8-e3ce5761ff71</BoundTo>
       <DependentUpon>JenkinsDemoRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
-      <id>3db0602a-45d1-4225-a2f3-3b45dc64a25c</id>
+      <id>02f34755-b189-43cb-ae71-eb33779a0a71</id>
     </Compile>
     <Compile Include="OpenBrowser.cs">
-      <BoundTo>3d6e9748-5284-4b03-bec8-79b1f23ebc3b</BoundTo>
+      <BoundTo>f45c09bc-1f94-4c94-8596-4cf5ee8874f3</BoundTo>
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>e1b56e06-60b8-4cb5-bfde-902585bb86a4</id>
+      <id>be1374a5-8f71-4091-84a4-f8f03e6e69a9</id>
     </Compile>
     <Compile Include="OpenBrowser.UserCode.cs">
-      <BoundTo>3d6e9748-5284-4b03-bec8-79b1f23ebc3b</BoundTo>
+      <BoundTo>f45c09bc-1f94-4c94-8596-4cf5ee8874f3</BoundTo>
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>db0a89c8-77d1-488f-963b-ef6dee08658a</id>
+      <id>a0753edb-11e5-48f5-8bbb-20a146d39a1a</id>
     </Compile>
     <Compile Include="Program.cs">
-      <id>74ca7bf6-56ce-467e-82cf-46ba467d13af</id>
+      <id>2322902b-0fa8-4105-9a84-60fe68b65f63</id>
     </Compile>
     <Compile Include="Recording1.cs">
-      <BoundTo>d59a0353-aba5-41e8-aad7-75892e066764</BoundTo>
+      <BoundTo>fd629724-9234-4519-963e-16914262f043</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>2f16a3cf-2513-4393-91d0-0cb34d67f2a4</id>
+      <id>c7568f46-74b5-4f47-aaf5-7e3a4c40fa32</id>
     </Compile>
     <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>d59a0353-aba5-41e8-aad7-75892e066764</BoundTo>
+      <BoundTo>fd629724-9234-4519-963e-16914262f043</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>cb4e14a5-d0b6-4763-80a2-d08d09507242</id>
+      <id>4500c7a4-c681-4759-8c41-66fe227ace31</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
-      <id>1cec994b-ed35-4c8a-a628-eaf25d98b3c4</id>
+      <id>a9e877e8-409b-4686-9ff3-1c8cc5941532</id>
     </None>
     <None Include="CloseBrowser.rxrec">
-      <BoundTo>f9db48c9-2a33-4596-ba91-01fee9b27a24</BoundTo>
-      <id>1816bb35-4b53-47f3-acc1-11fef09593db</id>
-      <recordtableid>e87d8f6d-e582-44c0-904e-df330b72b54b</recordtableid>
+      <BoundTo>b40a687e-efa7-407c-87f8-e3ce5761ff71</BoundTo>
+      <id>45d98b03-60db-474e-8ff3-c129147fd0cf</id>
+      <recordtableid>d23a46de-ff78-46d5-b90d-2480166f14d9</recordtableid>
     </None>
     <None Include="JenkinsDemoRepository.rximg">
-      <BoundTo>f9db48c9-2a33-4596-ba91-01fee9b27a24</BoundTo>
+      <BoundTo>b40a687e-efa7-407c-87f8-e3ce5761ff71</BoundTo>
       <DependentUpon>JenkinsDemoRepository.rxrep</DependentUpon>
       <imageblob>true</imageblob>
-      <id>ec690222-7ade-4e5c-b45f-5513f4985f05</id>
+      <id>644ebee3-bb0b-4d3a-80d9-c722d5c1ef4d</id>
     </None>
     <None Include="JenkinsDemoRepository.rxrep">
-      <id>f9db48c9-2a33-4596-ba91-01fee9b27a24</id>
-      <repoid>d1987af8-8825-4a1b-ab21-2457bc4e858a</repoid>
-      <reporootid>2dad6324-194b-4a90-8b88-9fe94e017c11</reporootid>
+      <id>b40a687e-efa7-407c-87f8-e3ce5761ff71</id>
+      <repoid>b5fe7856-95c4-45f3-8538-95a115885f88</repoid>
+      <reporootid>a7c3fd7c-43df-408f-b751-a97ae4fd0d8b</reporootid>
     </None>
     <None Include="OpenBrowser.rxrec">
-      <BoundTo>f9db48c9-2a33-4596-ba91-01fee9b27a24</BoundTo>
-      <id>3d6e9748-5284-4b03-bec8-79b1f23ebc3b</id>
-      <recordtableid>24beb1a5-c08c-46e1-af3e-7c82f7cb1450</recordtableid>
+      <BoundTo>b40a687e-efa7-407c-87f8-e3ce5761ff71</BoundTo>
+      <id>f45c09bc-1f94-4c94-8596-4cf5ee8874f3</id>
+      <recordtableid>18363f2b-ab52-46b6-b029-6fae96610fb7</recordtableid>
     </None>
     <None Include="Recording1.rxrec">
-      <BoundTo>f9db48c9-2a33-4596-ba91-01fee9b27a24</BoundTo>
-      <id>d59a0353-aba5-41e8-aad7-75892e066764</id>
-      <recordtableid>6394156a-32b4-4fa7-ba48-294ed176bff9</recordtableid>
+      <BoundTo>b40a687e-efa7-407c-87f8-e3ce5761ff71</BoundTo>
+      <id>fd629724-9234-4519-963e-16914262f043</id>
+      <recordtableid>2aab2f0d-7492-4a47-a037-efba07c76832</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="JenkinsDemo.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>b9c73725-a12a-4fac-ae4c-372e0832d26f</id>
+      <id>2b028e2b-6e51-451b-8006-1c1cda2912c6</id>
     </Content>
     <Content Include="JenkinsDemo.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>c3c894fb-4645-420c-9c71-e7ac480a8bd7</id>
+      <id>f131f68b-0d4a-48fc-9398-e507a59b8109</id>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

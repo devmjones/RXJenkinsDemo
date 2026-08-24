@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JenkinsDemo</name>
+    </assembly>
+    <members>
+        <member name="T:JenkinsDemo.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:JenkinsDemo.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the JenkinsDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JenkinsDemo.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JenkinsDemo.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:JenkinsDemo.JenkinsDemoRepository">
+            <summary>
+            The class representing the JenkinsDemoRepository element repository.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the JenkinsDemoRepository element repository.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.JenkinsDemoRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:JenkinsDemo.JenkinsDemoRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:JenkinsDemo.JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder.RanorexLogo">
+            <summary>
+            The RanorexLogo item.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder.RanorexLogoInfo">
+            <summary>
+            The RanorexLogo item info.
+            </summary>
+        </member>
+        <member name="T:JenkinsDemo.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:JenkinsDemo.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the JenkinsDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JenkinsDemo.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JenkinsDemo.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:JenkinsDemo.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:JenkinsDemo.Recording1.repo">
+            <summary>
+            Holds an instance of the JenkinsDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:JenkinsDemo.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JenkinsDemo.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JenkinsDemo.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JenkinsDemo.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

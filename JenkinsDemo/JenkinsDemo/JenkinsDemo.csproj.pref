@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Recording1.rxrec" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="JenkinsDemo.rxtst" />
     <Element value="Recording1.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
   </Array>
   <Properties name="projectSavedData" />
 </Properties>

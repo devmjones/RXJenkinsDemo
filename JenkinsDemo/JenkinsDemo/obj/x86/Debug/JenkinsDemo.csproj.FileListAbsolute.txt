@@ -1,0 +1,12 @@
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\JenkinsDemo.rxtmg
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\JenkinsDemo.rxtst
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\JenkinsDemo.exe.config
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\JenkinsDemo.xml
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\JenkinsDemo.exe
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\JenkinsDemo.pdb
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\obj\x86\Debug\JenkinsDemo.csproj.AssemblyReference.cache
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\obj\x86\Debug\JenkinsDemo.csproj.CoreCompileInputs.cache
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\obj\x86\Debug\JenkinsDemo.csproj.CopyComplete
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\obj\x86\Debug\JenkinsDemo.exe
+C:\Users\devon\Documents\Ranorex\RanorexStudio Projects\JenkinsDemo\JenkinsDemo\obj\x86\Debug\JenkinsDemo.pdb

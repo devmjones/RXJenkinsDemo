@@ -23,7 +23,7 @@ namespace JenkinsDemo
     /// The class representing the JenkinsDemoRepository element repository.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
-    [RepositoryFolder("2dad6324-194b-4a90-8b88-9fe94e017c11")]
+    [RepositoryFolder("a7c3fd7c-43df-408f-b751-a97ae4fd0d8b")]
     public partial class JenkinsDemoRepository : RepoGenBaseFolder
     {
         static JenkinsDemoRepository instance = new JenkinsDemoRepository();
@@ -32,7 +32,7 @@ namespace JenkinsDemo
         /// <summary>
         /// Gets the singleton class instance representing the JenkinsDemoRepository element repository.
         /// </summary>
-        [RepositoryFolder("2dad6324-194b-4a90-8b88-9fe94e017c11")]
+        [RepositoryFolder("a7c3fd7c-43df-408f-b751-a97ae4fd0d8b")]
         public static JenkinsDemoRepository Instance
         {
             get { return instance; }
@@ -42,7 +42,7 @@ namespace JenkinsDemo
         /// Repository class constructor.
         /// </summary>
         public JenkinsDemoRepository() 
-            : base("JenkinsDemoRepository", "/", null, 0, false, "2dad6324-194b-4a90-8b88-9fe94e017c11", ".\\RepositoryImages\\JenkinsDemoRepository2dad6324.rximgres")
+            : base("JenkinsDemoRepository", "/", null, 0, false, "a7c3fd7c-43df-408f-b751-a97ae4fd0d8b", ".\\RepositoryImages\\JenkinsDemoRepositorya7c3fd7c.rximgres")
         {
             _applicationundertest = new JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder(this);
         }
@@ -54,7 +54,7 @@ namespace JenkinsDemo
         /// <summary>
         /// The Self item info.
         /// </summary>
-        [RepositoryItemInfo("2dad6324-194b-4a90-8b88-9fe94e017c11")]
+        [RepositoryItemInfo("a7c3fd7c-43df-408f-b751-a97ae4fd0d8b")]
         public virtual RepoItemInfo SelfInfo
         {
             get
@@ -66,7 +66,7 @@ namespace JenkinsDemo
         /// <summary>
         /// The ApplicationUnderTest folder.
         /// </summary>
-        [RepositoryFolder("90ab8465-5d2f-4ab3-9802-b93c85317993")]
+        [RepositoryFolder("6c180948-0794-4bb6-8f59-571e900e0f3c")]
         public virtual JenkinsDemoRepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
         {
             get { return _applicationundertest; }
@@ -82,24 +82,24 @@ namespace JenkinsDemo
         /// <summary>
         /// The ApplicationUnderTestAppFolder folder.
         /// </summary>
-        [RepositoryFolder("90ab8465-5d2f-4ab3-9802-b93c85317993")]
+        [RepositoryFolder("6c180948-0794-4bb6-8f59-571e900e0f3c")]
         public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _ranorexhelpcenterInfo;
+            RepoItemInfo _ranorexlogoInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
             /// </summary>
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain='support.ranorex.com']", parentFolder, 30000, null, false, "90ab8465-5d2f-4ab3-9802-b93c85317993", "")
+                    base("ApplicationUnderTest", "/dom[@domain='www.ranorex.com']", parentFolder, 30000, null, false, "6c180948-0794-4bb6-8f59-571e900e0f3c", "")
             {
-                _ranorexhelpcenterInfo = new RepoItemInfo(this, "RanorexHelpCenter", "?/?/main/div/div/section[1]/h1[@innertext='Ranorex Help Center']", ".//h1[@innertext='Ranorex Help Center']", 30000, null, "5491d3cd-9f67-453e-a41e-dbef4fe1a1e4");
+                _ranorexlogoInfo = new RepoItemInfo(this, "RanorexLogo", "?/?/header/?/?/a[@href='https://www.ranorex.com/']/img[@alt='Ranorex Logo']", ".//img[@alt='Ranorex Logo']", 30000, null, "abf55897-d57a-4c66-985b-8420dd89f2fe");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("90ab8465-5d2f-4ab3-9802-b93c85317993")]
+            [RepositoryItem("6c180948-0794-4bb6-8f59-571e900e0f3c")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -111,7 +111,7 @@ namespace JenkinsDemo
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("90ab8465-5d2f-4ab3-9802-b93c85317993")]
+            [RepositoryItemInfo("6c180948-0794-4bb6-8f59-571e900e0f3c")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -121,26 +121,26 @@ namespace JenkinsDemo
             }
 
             /// <summary>
-            /// The RanorexHelpCenter item.
+            /// The RanorexLogo item.
             /// </summary>
-            [RepositoryItem("5491d3cd-9f67-453e-a41e-dbef4fe1a1e4")]
-            public virtual Ranorex.H1Tag RanorexHelpCenter
+            [RepositoryItem("abf55897-d57a-4c66-985b-8420dd89f2fe")]
+            public virtual Ranorex.ImgTag RanorexLogo
             {
                 get
                 {
-                    return _ranorexhelpcenterInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                    return _ranorexlogoInfo.CreateAdapter<Ranorex.ImgTag>(true);
                 }
             }
 
             /// <summary>
-            /// The RanorexHelpCenter item info.
+            /// The RanorexLogo item info.
             /// </summary>
-            [RepositoryItemInfo("5491d3cd-9f67-453e-a41e-dbef4fe1a1e4")]
-            public virtual RepoItemInfo RanorexHelpCenterInfo
+            [RepositoryItemInfo("abf55897-d57a-4c66-985b-8420dd89f2fe")]
+            public virtual RepoItemInfo RanorexLogoInfo
             {
                 get
                 {
-                    return _ranorexhelpcenterInfo;
+                    return _ranorexlogoInfo;
                 }
             }
         }

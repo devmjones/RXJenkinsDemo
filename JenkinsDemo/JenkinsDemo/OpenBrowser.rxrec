@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="24beb1a5-c08c-46e1-af3e-7c82f7cb1450"
+id="18363f2b-ab52-46b6-b029-6fae96610fb7"
 mode="Desktop">
 	<repeatcount>
 		1
@@ -43,12 +43,12 @@ mode="Desktop">
 			<bindings>
 			</bindings>
 			<url>
-				https://support.ranorex.com/hc/en-us
+				https://www.ranorex.com
 			</url>
 		</openwebsiterecorditem>
 	</recorditems>
 	<repository
-	id="d1987af8-8825-4a1b-ab21-2457bc4e858a"
+	id="b5fe7856-95c4-45f3-8538-95a115885f88"
 	name="JenkinsDemoRepository"
 	relativepath="JenkinsDemoRepository.rxrep">
 		<codegen
@@ -56,7 +56,7 @@ mode="Desktop">
 		namespace="JenkinsDemo">
 		</codegen>
 		<rootfolder
-		id="2dad6324-194b-4a90-8b88-9fe94e017c11"
+		id="a7c3fd7c-43df-408f-b751-a97ae4fd0d8b"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>

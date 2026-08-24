@@ -4,9 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 12.0.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsDemo", "JenkinsDemo\JenkinsDemo.csproj", "{2BC1876B-480B-4FE5-AC83-BD2AA7FA8E7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsDemo", "JenkinsDemo\JenkinsDemo.csproj", "{477381D4-BD42-491B-B9EE-43E2DFCB9C5C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35F9B8AE-B718-4C29-9785-DF9BDC1C48A0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A008A5F-E0A9-47DB-BD63-51CF1D0DE923}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
@@ -17,9 +17,9 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2BC1876B-480B-4FE5-AC83-BD2AA7FA8E7B}.Debug|x86.Build.0 = Debug|x86
-		{2BC1876B-480B-4FE5-AC83-BD2AA7FA8E7B}.Debug|x86.ActiveCfg = Debug|x86
-		{2BC1876B-480B-4FE5-AC83-BD2AA7FA8E7B}.Release|x86.Build.0 = Release|x86
-		{2BC1876B-480B-4FE5-AC83-BD2AA7FA8E7B}.Release|x86.ActiveCfg = Release|x86
+		{477381D4-BD42-491B-B9EE-43E2DFCB9C5C}.Debug|x86.Build.0 = Debug|x86
+		{477381D4-BD42-491B-B9EE-43E2DFCB9C5C}.Debug|x86.ActiveCfg = Debug|x86
+		{477381D4-BD42-491B-B9EE-43E2DFCB9C5C}.Release|x86.Build.0 = Release|x86
+		{477381D4-BD42-491B-B9EE-43E2DFCB9C5C}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

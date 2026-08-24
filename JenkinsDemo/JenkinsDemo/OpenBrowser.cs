@@ -26,7 +26,7 @@ namespace JenkinsDemo
     /// <summary>
     ///The OpenBrowser recording.
     /// </summary>
-    [TestModule("24beb1a5-c08c-46e1-af3e-7c82f7cb1450", ModuleType.Recording, 1)]
+    [TestModule("18363f2b-ab52-46b6-b029-6fae96610fb7", ModuleType.Recording, 1)]
     public partial class OpenBrowser : ITestModule
     {
         /// <summary>
@@ -79,8 +79,8 @@ namespace JenkinsDemo
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://support.ranorex.com/hc/en-us' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://support.ranorex.com/hc/en-us", "chrome", "", false, false, false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.ranorex.com' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.ranorex.com", "chrome", "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }
